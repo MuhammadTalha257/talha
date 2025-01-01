@@ -6,9 +6,9 @@
           <h2>
             <span>{{ $t('heroTitle') }}</span>
           </h2>
-          <div class="images">
+         {{-- <div class="images">
             <img :alt="images[image]" :src="`/images/${images[image]}`" />
-          </div>
+          </div>  --}}
         </div>
         <h2>
           {{ $t('heroSubtitle') }}<br />
